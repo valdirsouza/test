@@ -103,8 +103,7 @@ repeat = true
 #p champs
 while repeat
 	def options
-		puts ""
-		puts "Hey, choose one option"
+		puts "Choose: "
 		puts ""
 		puts "Type 'I' to insert a champion"
 		puts "Type 'U' to update a champion"
@@ -175,7 +174,7 @@ while repeat
 		when "e"
 			break
 		else
-			puts "Please, choose!"
+			print "Please. "
 			#repeat = true
 		end
 	
